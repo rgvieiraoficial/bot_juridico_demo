@@ -5,6 +5,11 @@
   "repository": "https://github.com/rgvieiraoficial/bot_juridico_demo.git",
   "author": "rgvieira <yami.hiei87@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --poll --ignore-watch node_modules --respawn --transpile-only src/server.ts",
+    "build": "tsup src",
+    "start": "node dist/server.js"
+  },
   "dependencies": {
     "fastify": "^4.26.2"
   },
