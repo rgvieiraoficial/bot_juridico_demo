@@ -1,0 +1,11 @@
+{
+  "name": "bot_juridico_demo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/rgvieiraoficial/bot_juridico_demo.git",
+  "author": "rgvieira <yami.hiei87@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.26.2"
+  }
+}
