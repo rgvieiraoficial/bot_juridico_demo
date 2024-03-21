@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  bot-juridico-demo:
+    build: .
+    container_name: bot_juridico_demo
+    restart: on-failure
+    ports:
+      - 3385:3385
+      - 9229:9229 #Você pode inserir essa porta tbm pra poder usar o debug
+    environment:
+      - VERIFY_TOKEN=768d30d7-737f-41a2-85e1-6eaea6432a94
+      - WHATSAPP_TOKEN=EAAQh8rbmaIEBOzRyXwEZAiKePaTu36Xkorc2LCARrFKLGCV2k85IrkzRby3cUvAHhC8XIxH2Mz1h2ZCYYeh2U7E6owV5V1Uo4Ddk05Wca0xTkh9Mi1PvseLLWTKFgJiInpaWR6ZCH7GiXzpDbekKO6izC1m0d8F9eaWjZBgGZCAZCoB26wadPKqVzpqwRTYLCK1n9ABT7iKv8vOFbzWbYZD
+    volumes:
+      - .:/usr/app
