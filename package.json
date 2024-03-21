@@ -7,5 +7,10 @@
   "license": "MIT",
   "dependencies": {
     "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
   }
 }
